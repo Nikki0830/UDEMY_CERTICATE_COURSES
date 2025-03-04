@@ -24,7 +24,7 @@ function Home() {
             <Product  id="12342"
               title="Sun Glasses"
               price={14.96}
-              rating={5}
+              rating={4}
               image="https://i.pinimg.com/736x/3b/5f/77/3b5f77f1c40006c08cddd31350145587.jpg"/>
           </div>
           <div className="home_row">
@@ -48,7 +48,7 @@ function Home() {
           <Product  id="12346"
               title="perfume"
               price={18.96}
-              rating={4}
+              rating={5}
               image="https://i.pinimg.com/474x/bd/9f/e0/bd9fe063f4608878fe03ce957da7d30f.jpg"/>
           </div>
         </div>
