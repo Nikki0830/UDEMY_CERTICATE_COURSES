@@ -1,0 +1,81 @@
+/* Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .header_logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+  }
+  
+  .header_logoImage {
+    color: #f08804;
+  }
+  
+  .header_logoTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header_search {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .header_searchInput {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .header_searchIcon {
+    padding: 5px;
+    color: #131921;
+    cursor: pointer;
+  }
+  
+  .header_nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .nav_itemLineOne {
+    font-size: 12px;
+  }
+  
+  .nav_ietmLineTwo {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .itemBasket {
+    color: #f08804;
+  }
+  
+  .nav_basket {
+    margin-left: 5px;
+  }
+  
+  
